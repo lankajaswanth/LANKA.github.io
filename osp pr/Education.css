@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    font-family: 'Krona One', sans-serif;
+  }
+ body{
+  background: url(https://images.squarespace-cdn.com/content/v1/51e2d846e4b0a4450d9599ea/1510593841738-WXZ4VZ7TGGKEEE70FZ83/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/16_FY18_Holiday_GiftsFor_Bestsellers_Creme_Hero_2103_BACKGROUND.jpg?format=2500w);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgba(0,0,0);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    color: #ffa260;
+  }
+  
+  #head{
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid wheat;
+  }
+  #head img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid  #ffa260;;
+    border-radius: 50%;
+  }
+  .navbtn{
+    margin: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+    color: #ffa260;
+    transition: all 0.5s;
+  }
+  .navbtn:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+  }
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+h1{
+    text-align: center;
+    color: #ffa260;
+    text-shadow: 4px 15px 10px rgba(0,0,0,0.5),
+    2px 5px 5px rgba(0,0,0,0.5),
+    3px 5px 5px rgba(0,0,0,0.5);
+}
+.cardx{
+    background: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding: 20px;
+    border: 2px solid #ffa260;
+    color: #ffa260;
+    transition: all 0.5s;
+}
+.cardx:nth-of-type(2n){
+    margin-left: 500px;
+}
+.cardx:hover{
+    border-color: #f1ff5c;
+    color: wheat;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+  }
